@@ -1,9 +1,9 @@
 # dvc stage add -n prepare -d src/prepare.py -d data/raw -o data/prepared/train.csv -o data/prepared/test.csv python src/prepare.py
 # dvc repro
-
+# python -m src.stages.data_load --config=params.yaml
 stages:
   prepare:
-    cmd: python src/prepare.py
+    cmd: python -m src.prepare --config=params.yaml
     deps:
     - data/raw
     - src/prepare.py
@@ -11,14 +11,14 @@ stages:
     - data/prepared/test.csv
     - data/prepared/train.csv
   train:
-    cmd: python src/train.py
+    cmd: python -m src.train --config=params.yaml
     deps:
     - data/prepared/train.csv
     - src/train.py
     outs:
     - model/model.joblib
   evaluate:
-    cmd: python src/evaluate.py
+    cmd: python -m src.evaluate --config=params.yaml
     deps:
     - model/model.joblib
     - src/evaluate.py
