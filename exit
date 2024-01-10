@@ -1,0 +1,77 @@
+[33mcommit a88be0a9cb939039bbccc23506387170a22af753[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msgd-pipeline[m[33m)[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Jan 8 16:22:24 2024 +0200
+
+    Rerun SGD as pipeline
+
+[33mcommit 1b7730d5f22e40c60315b9ed586a0b5d3779c28e[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Jan 8 15:15:14 2024 +0200
+
+    Rerun SGD as pipeline
+
+[33mcommit 43ac995ba967fb4d19b07efa4d5b8495337297bd[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Jan 8 15:04:25 2024 +0200
+
+    Rerun SGD as pipeline
+
+[33mcommit 9ad26c52c79850af9fbc64d9a0a3c4b0d353d54c[m[33m ([m[1;31morigin/first_experiment[m[33m, [m[1;32mfirst_experiment[m[33m)[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Dec 18 14:36:49 2023 +0200
+
+    Evaluate the SGD model accuracy
+
+[33mcommit 081a4d3b2e3f6f5cc24221e7ed2898a0dbe787ac[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Dec 18 14:35:10 2023 +0200
+
+    Trained an SGD classifier
+
+[33mcommit 486eb8724a52fc68cafc0191d882e6ebfa66875a[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Dec 18 14:29:45 2023 +0200
+
+    Created train and test CSV files
+
+[33mcommit 6f53b27608663d8d1bd319e7f1ef3818770e55ae[m
+Author: MazniSherif-E <mazin.sherif100@gmail.com>
+Date:   Mon Dec 18 14:03:27 2023 +0200
+
+    First commit with setup and DVC files
+
+[33mcommit b796ba195447268ebc51e20a778fb2db9f11e341[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: bf64495 0744490
+Author: Kristijan Ivancic <KristijanIvancic@users.noreply.github.com>
+Date:   Wed Jul 22 10:00:04 2020 +0100
+
+    Merge pull request #2 from KristijanIvancic/master
+    
+    Update README
+
+[33mcommit 0744490c33609885b11c0a5cdfa2f349f107725c[m
+Author: KristijanIvancic <kristijan.ivancic90@gmail.com>
+Date:   Wed Jul 22 09:59:00 2020 +0100
+
+    Update README
+
+[33mcommit bf644957e095e5bdd25661cd66546969f4f96b1d[m
+Merge: 75c6d1c 067875e
+Author: Kristijan Ivancic <KristijanIvancic@users.noreply.github.com>
+Date:   Tue Jul 21 16:50:00 2020 +0100
+
+    Merge pull request #1 from KristijanIvancic/master
+    
+    Create template repository
+
+[33mcommit 067875e8e21d39aeb59af6f0dc29b24cefc1acba[m
+Author: KristijanIvancic <kristijan.ivancic90@gmail.com>
+Date:   Tue Jul 21 16:46:59 2020 +0100
+
+    Add repository template
+
+[33mcommit 75c6d1c8a92012afae1ddf19d3b1bc0e00aec915[m
+Author: Dan Bader <hello@dbader.org>
+Date:   Tue Jul 21 06:22:49 2020 -0700
+
+    Initial commit
